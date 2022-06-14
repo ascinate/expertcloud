@@ -35,7 +35,7 @@ function Faq(){
           <div className="comon-web-search-sec">
              <div className="container">
                 <h1 className="text-center" data-aos="fade-down"> FAQ </h1>
-                <p className="text-center" data-aos="fade-up"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                <p className="text-center" data-aos="fade-up"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet.
                 </p>
                 
 

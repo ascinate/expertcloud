@@ -22,7 +22,7 @@ function Footer(){
                    <NavLink to="/"> 
                       <img src="images/footer-logo.svg" alt="fl"/>
                    </NavLink>
-                   <p className="col-lg-8 mt-lg-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                   <p className="col-lg-8 mt-lg-4 mt-3 mt-lg-0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                 </div>
              </div>
              <div className="col-lg-6">
@@ -40,9 +40,9 @@ function Footer(){
                        <div className="comon-footer">
                            <h5> Company </h5>
                            <ul className="list-unstyled">
-                             <li> <NavLink to="/"> Privacy Policy </NavLink> </li>
+                             <li> <NavLink to="/privacypolicy"> Privacy Policy </NavLink> </li>
                              <li> <NavLink to="/"> Terms of use </NavLink> </li>
-                             <li> <NavLink to="/"> Compliance  </NavLink> </li>
+                             <li> <NavLink to="/compliance"> Compliance  </NavLink> </li>
                            </ul>
                        </div>
                     </div>
@@ -50,8 +50,8 @@ function Footer(){
                        <div className="comon-footer">
                            <h5> Support </h5>
                            <ul className="list-unstyled">
-                             <li> <NavLink to="/"> Contact Us </NavLink> </li>
-                             <li> <NavLink to="/"> FAQ </NavLink> </li>
+                             <li> <NavLink to="/contact"> Contact Us </NavLink> </li>
+                             <li> <NavLink to="/faq"> FAQ </NavLink> </li>
                            </ul>
                        </div>
                     </div>
@@ -63,6 +63,34 @@ function Footer(){
         </div>
       </div>
     </footer>
+
+
+    <div className="offcanvas offcanvas-start mobile-menu-div" tabindex="-1" id="mobile-menu" aria-labelledby="offcanvasExampleLabel">
+         <div className="offcanvas-header">
+            <h5 className="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div className="offcanvas-body">
+             <div className="comon-mob-menu">
+               <div data-bs-dismiss="offcanvas">
+               <NavLink to="/">
+                 <img src="images/web-logo.svg" alt="logo"/>
+               </NavLink>
+               </div>
+               <ul className="list-unstyled mt-4">
+                 <li data-bs-dismiss="offcanvas">
+                   <NavLink to="/contact">Contact Us </NavLink>
+                 </li>
+                 <li  data-bs-dismiss="offcanvas">
+                   <NavLink to="/">Login </NavLink>
+                 </li>
+                 <li data-bs-dismiss="offcanvas">
+                   <NavLink to="/">Register </NavLink>
+                 </li>
+               </ul>
+             </div>
+         </div>
+    </div>
      </>
   );
 }

@@ -5,11 +5,12 @@ import { FaAngleLeft,FaAngleRight,FaChevronRight,FaRedo } from "react-icons/fa";
 function FaqSectionLanding(){
     return(
          <>
-          <div className="faq-sections1" >
+         <h1 className="text-center" data-aos="fade-down"> FAQ </h1>
+         <p className="text-center" data-aos="fade-up"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+         </p>
+          <div className="faq-sections1 landing-faq" >
              <div className="container">
-                 <h1 className="text-center" data-aos="fade-down"> FAQ </h1>
-                 <p className="text-center" data-aos="fade-up"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                 </p>
+                
 
                  <div className="faq-part" data-aos="fade-down">
                    <div className="accordion" id="accordionExample">

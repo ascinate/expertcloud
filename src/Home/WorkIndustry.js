@@ -12,7 +12,7 @@ function WorkIndustry(){
             <div className="container">
                
                     <h2 className="text-center"> We work with the best across industries </h2>
-                    <div className="row row-cols-1 mt-5 row-cols-md-3 row-cols-lg-6">
+                    <div className="row row-cols-2 mt-5 row-cols-md-3 row-cols-lg-6">
                     {Data.AllIndustryLogo.map((item, index) => {
                         return(
                              <>

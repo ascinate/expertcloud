@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import {NavLink } from "react-router-dom";
 import Aos from "aos";
 import { FaAngleLeft,FaAngleRight,FaChevronRight,FaRedo } from "react-icons/fa";
@@ -18,6 +18,9 @@ import Footer from "../Footer";
 
 
 function Home(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   Aos.init({
     offset: 100,
     easing: 'ease',
@@ -42,7 +45,7 @@ function Home(){
                   <h1 className="text-center"> <span>We are Nextyn : </span> 
                   A closed source global expert marketplace </h1>
                   <h3 className="mt-lg-4 col-lg-8 mx-auto text-center">Connect with industry experts, efficiently</h3>
-                  <div className="d-flex justify-content-center align-items-center mt-md-5">
+                  <div className="d-md-flex justify-content-center align-items-center mt-md-5">
                      <NavLink to="/" className="btn find-btn"> Find Experts Now <FaAngleRight/> </NavLink>
                      <NavLink to="/" className="btn contact-btn"> Contact Us <FaAngleRight/> </NavLink>
                   </div>
@@ -62,7 +65,7 @@ function Home(){
             </div>
           </div>
 
-          <div className="comon-web-search-sec">
+          <div className="comon-web-search-sec home-body">
             <div className="container">
 
              <SearchSectionBody/>
@@ -71,13 +74,13 @@ function Home(){
 
              <CollaborateLanding/>
 
-             <FaqSectionLanding/>
-
-             <ConatctComonWeb/>
+             
              
              <CareerSection/>
 
              <NewsBlogs/>
+
+             <ConatctComonWeb/>
 
             </div>
           </div>

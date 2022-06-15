@@ -1524,6 +1524,19 @@ padding: 25px;
   font-size: 16px;
   font-weight: 400;
 }
+
+  /* faq page */
+  .faq-page .faq-sections1{
+    margin-bottom: 50px;
+
+  }
+  .faq-page .faq-sections1 h2{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  /* faq page ends */
+
+
 .requset-1btn{
   background: #5746EC !important;
   color: #fff !important;
@@ -2113,6 +2126,53 @@ box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06);
 .body-expart-div .expert-tables .comon-table-divs table tbody td:nth-child(6){
   width:143px;
 }
+
+/* Compliance-d1 */
+.Compliance-d1 h2{
+   font-size: 45px;
+   font-weight: 600;
+   color: #000;
+}
+.Compliance-d1 p{
+  font-size: 16px;
+  color: #5C5F62;
+ 
+}
+.comon-compliance{
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.comon-compliance h5{
+   font-size: 20px;
+   font-weight: 500;
+   color: #000;
+   text-transform: uppercase;
+}
+.comon-compliance p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #5C5F62;
+  margin: 25px 0;
+}
+.comon-compliance hr{
+  background: rgba(0, 0, 0, 0.2) !important;
+  margin-top: 33px !important;
+}
+.comon-compliance a{
+  font-size: 20px;
+  font-weight: 500;
+  color: #5746EC;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.comon-compliance h6{
+  font-size: 20px;
+  font-weight: 500;
+  color: #F33636;
+  text-transform: uppercase;
+}
+/* Compliance-d1 page end */
 .submited-text{
   background: rgba(41, 156, 70, 0.1);
 border-radius: 8px;
@@ -2268,7 +2328,31 @@ padding: 0 25px;
 .expert-cell-page .comon-table-divs th:last-child::after{
   /* display: none !important; */
 }
+/* privacy css */
 
+.privacy-policy h2 {
+  font-size: 45px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+}
+.comon-privacy h5{
+  font-size: 35px;
+  font-weight: 500;
+  color: #000;
+ 
+}
+.comon-privacy p{
+  color: #5C5F62;
+  font-size: 20px;
+  font-weight: 400;
+  margin:30px 0;
+}
+.compliance-d1 h2,
+.compliance-d1 p{
+  text-align: center;
+}
+/* privacy css end */
 .collab-table #ceo th:after {
   background-image: url(../public/images/arrow-tabale-list.svg) !important;
   background-repeat: no-repeat;
@@ -2308,6 +2392,32 @@ padding: 0 25px;
   background: none !important;
   border: none !important;
 }
+.navbar-toggler:focus,
+.offcanvas-header .btn-close:focus{
+  box-shadow: none !important;
+}
+.mobile-menu-div{
+  width: 300px !important;
+}
+/* mobile menu css */
+.mobile-menu-div .offcanvas-title{
+   visibility: hidden;
+}
+.comon-mob-menu ul li{
+  margin-bottom: 10px;
+  border-bottom: solid 1px #ededed ;
+  padding-bottom: 10px;
+}
+.comon-mob-menu ul li:last-child{
+  border: none;
+}
+.comon-mob-menu ul li a{
+     color: #000;
+     font-weight: 500;
+     display: inline-block;
+     text-decoration: none;
+}
+/* mobile menu css ends */
 .managment-table .comon-table-divs th:first-child,
 .managment-table .comon-table-divs tr td:first-child{
   width: 240px;
@@ -3666,7 +3776,10 @@ color: #5746EC !important;
   margin-bottom:12px;
   padding-top: 12px;
 }
-
+/* 15-04-2022 */
+.home-body .news-blogs{
+  margin-top: 100px;
+}
 /* landing */
 
 .top-part{
@@ -3678,7 +3791,7 @@ padding:0;
 width: 100%;
 }
 .top-part .navbar{
-  padding: 14px 0;
+  padding: 14px 50px;
 }
 
 .top-part .login-web-btn{
@@ -3712,6 +3825,9 @@ padding: 0;
 line-height: 41px;
 transition: all 0.5s;
 margin-left: 15px;
+}
+.webnews-div .contact-comn-web{
+  margin-top: 0;
 }
 .top-part .contact-btn-web{
   color: #727479 !important;
@@ -3799,6 +3915,7 @@ font-size: 18px;
   position: relative;
   display: inline-block;
   width: 100%;
+  margin-top: 35px;
 }
 .career-infomations{
   position: absolute;
@@ -3913,8 +4030,15 @@ font-size: 18px;
 .poular-bls-divs .slick-next{
  top:-50px !important;
 }
+.blos-details-part h2{
+  color: #000;
+  font-weight: 500;
+}
 .blos-details-part p{
   margin: 25px 0;
+  color: #202020;
+  font-size: 20px;
+  font-weight: 400;
 }
 .poular-bls-divs{
   display: inline-block;
@@ -3924,6 +4048,36 @@ font-size: 18px;
   margin-bottom: 70px;
 
 }
+.top-part .navbar-toggler{
+  border: none;
+}
+.poular-bls-divs h2{
+  font-size: 45px;
+  font-weight: 600;
+  color: #000;
+}
+/* news 15-06 */
+.webnews-div h1{
+  font-size: 45px;
+  font-weight: 600;
+  color: #000;
+}
+.sub-text2{
+  font-size: 20px;
+  color: #5C5F62;
+}
+/* contact us */
+.contact-us h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #000;
+}
+.contact-us p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #202020;
+}
+
 .bottom-contact-us{
   margin-top: 120px;
 }
@@ -3952,6 +4106,7 @@ font-size: 18px;
   line-height: 50px;
   border: none;
   color: #fff !important;
+  font-size: 20px !important;
 
 }
 .contact-from-ds .form-group{
@@ -3959,9 +4114,11 @@ font-size: 18px;
 }
 .contact-from-ds .form-group label{
   margin-bottom: 8px;
+  font-size: 20px;
 }
 .bottom-contact-us span{
   margin-bottom: 14px;
+  font-size: 20px;
 }
 .bottom-contact-us span svg{
   margin-right: 5px;
@@ -3973,6 +4130,7 @@ font-size: 18px;
 .cont-socal li a{
   color: #000;
   display: inline-block;
+  font-size: 20px;
 }
 .slick-dots{
   display: none !important;
@@ -4034,7 +4192,6 @@ p.sub-text-news{
   font-weight: 500;
 }
 .blogs-web-details{
-  margin-top: 30px;
   margin-bottom: 88px;
 }
 .comon-ads1 h5{
@@ -4126,7 +4283,10 @@ color: #000;
 
 p.subtext1{
   color: #5C5F62;
-  font-size: 16px;
+  font-size:20px;
+}
+.landing-banner p{
+  font-size: 19px;
 }
 .comon-section-landing{
   padding-left: 40px;
@@ -4147,7 +4307,7 @@ p.subtext1{
 .comon-section-landing .click-btn{
    color: #5746EC;
    font-weight: 500;
-   font-size: 18px;
+   font-size: 20px;
    padding: 0;
 }
 .comon-section-landing ul{
@@ -4163,7 +4323,8 @@ p.subtext1{
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.07);
   border-radius: 8px;
   color: #5C5F62;
-  font-size: 15px;
+  font-size: 17px;
+  font-weight: 500;
   transition: all 0.5s;
   transform: scale(1);
 }
@@ -4193,6 +4354,10 @@ p.subtext1{
   width: 90%;
   display: inline-block;
   margin-left: 17px;
+  font-size: 20px;
+}
+.comon-section-landing{
+  font-size: 18px;
 }
 .cosulting-page-d1 ul li svg{
    color: #5746EC;
@@ -4206,9 +4371,10 @@ p.subtext1{
 .get-start-btn:hover{
   background: #000 !important;
 }
-.comon-web-search-sec .container > div{
+.comon-web-search-sec .container > div.row{
    margin-bottom:78px;
 }
+
 .faq-part{
   background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
@@ -4229,7 +4395,7 @@ padding: 20px;
 
 }
 .faq-part .accordion-button{
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 500;
   color: #000;
   box-shadow: none !important;
@@ -4241,9 +4407,10 @@ padding: 20px;
  border: none !important;
 } 
 .faq-part .accordion-body p{
-  font-style: 16px;
+  font-size:19px;
   font-weight: 400;
-  color: #5C5F62;
+  color: #5C5F62; 
+  width: 97%;
 }
 .faq-part .accordion > div:last-child{
   border-bottom: none !important;
@@ -4294,8 +4461,14 @@ padding: 20px;
   width: 100%;
   color: #fff;
 }
+.comon-web-search-sec h1{
+  font-size: 45px;
+  font-weight: 600;
+  color: #000;
+}
 .contact-comn-web{
-  margin-bottom:140px;
+  margin-top: 120px;
+  margin-bottom:120px;
   display: inline-block;
   width: 100%;
 }
@@ -4530,6 +4703,22 @@ padding: 20px;
   min-height: 100%;
 
 }
+.form-sec-ban{
+  width: 100%;
+}
+.landing-banner h1, .home-banner h1{
+  font-size: 44px;
+}
+.form-sec-ban h2{
+  font-size: 26px;
+}
+/* home  */
+.industry-clients h2{
+  font-size: 45px;
+}
+.webnews-div .contact-comn-web{
+  margin-top: 0;
+}
 }
 @media (max-width: 1024px){
   .select-option,
@@ -4547,6 +4736,54 @@ padding: 20px;
   }
 }
 @media (max-width: 900px){
+  /* 15-06-2022 web */
+  .top-part .navbar {
+    padding: 14px 30px;
+  }
+  .blogs-web-details .blog-pic1{
+    height: 250px;
+  }
+  /* contact */
+  .contact-from-ds{
+    width: 100%;
+  }
+  .bottom-contact-us{
+    margin: 30px 0;
+  }
+  /* landing */
+  .landing-banner{
+    padding-top:30px;
+  }
+  .form-sec-ban {
+    margin-top: 35px;
+  }
+  .comon-section-landing {
+    padding-left: 0;
+    padding-top: 25px;
+  }
+  .logo-sec-ft {
+    margin-bottom: 30px;
+  }
+  /* landing ends */
+  .form-sec-ban{
+    width: 100%;
+    height: auto;
+  }
+  .form-sec-ban h2{
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .form-sec-ban label{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .form-sec-ban .form-control{
+    height: 60px;
+  }
+  .form-sec-ban .submit{
+    height: 50px;
+  }
+  /* 15-03-200 ends */
   .sidebar-menu{
     display: none;
   }
@@ -4960,12 +5197,332 @@ padding: 20px;
   .comon-payments-ex{
     width: 100%;
   }
+
+  .compliance-d1 h2,
+    .compliance-d1 p{
+      text-align: left;
+    }
  
   
 }
 
 
 @media (max-width:667px){
+    /* 15-06 website */
+    /* details */
+    .blogs-web-details .contact-comn-web {
+      margin-top: 60px;
+      margin-bottom: 0;
+    }
+    .blogs-web-details .blog-pic1{
+      height: 200px;
+    }
+    .blogs-web-details ul li{
+      margin-right: 13px;
+    }
+    .blos-details-part h2{
+      font-size: 20px;
+    }
+    .blos-details-part p{
+      font-size: 18px;
+    }
+    .poular-bls-divs h2{
+      text-align: center;
+      font-size: 30px;
+
+    }
+    .blogs-web-details .poular-bls-divs .slick-prev, .blogs-web-details  .poular-bls-divs .slick-next {
+      position: absolute;
+      left: 0 !important;
+      right: 0 !important;
+      margin: auto;
+      text-align: center;
+      top: inherit !important;
+      bottom: -50px !important;
+    }
+    .blogs-web-details .poular-bls-divs .slick-prev {
+      right: 110px !important;
+    }
+    .news-blogs .comon-ads1,
+    .blogs-web-details .comon-ads1{
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06);
+      border-radius: 12px;
+      padding: 20px;
+
+    }
+    
+    .blogs-web-details .comon-ads1 figure,
+    .home-body .news-blogs .comon-ads1 figure{
+      height: 150px;
+      border-radius: 5px;
+    }
+    /* privacy */
+    .privacy-policy h2{
+      font-size: 35px;
+      font-weight: 500;
+      color: #000;
+      text-align: left;
+    }
+    .comon-privacy h5{
+      font-size: 26px;
+      color: #000;
+    }
+    .comon-privacy p{
+      font-size: 18px;
+      color: #5C5F62;
+    }
+    .comon-compliance{
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06);
+      border-radius: 12px;
+      padding: 25px;
+    }
+    .comon-compliance hr{
+      display: none;
+    }
+    .compliance-d1 h2{
+       font-size: 35px;
+    }
+    .comon-compliance h6{
+      margin-top:20px;
+      font-size: 18px;
+    }
+    .comon-compliance a{
+      font-size: 18px;
+    }
+    .compliance-d1 h2,
+    .compliance-d1 p{
+      text-align: left;
+    }
+    /* contact */
+    .contact-from-ds{
+       width: 100%;
+    }
+    .contact-us h2{
+      font-size: 35px;
+    }
+    .contact-us p{
+      font-size: 16px;
+      color: #666666;
+    }
+    .bottom-contact-us{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    /* contact us */
+    /* news */
+    .webnews-div h1{
+       font-size: 35px;
+    }
+    .sub-text2{
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .webnews-div .comon-ads1{
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06);
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 30px;
+    }
+    .webnews-div .comon-ads1 figure{
+      height: 184px;
+      border-radius: 5px;
+    }
+    .webnews-div .loading-btn{
+      margin-top: 30px !important;
+    }
+    .webnews-div .contact-comn-web{
+      margin-top: 0;
+    }
+    .webnews-div hr{
+      margin: 20px 0 !important;
+    }
+    /* home css */
+    .home-banner{
+      height: auto;
+      padding-top: 40px;
+      min-height: auto;
+    }
+    .home-banner .find-btn{
+      margin: auto;
+      display: table;
+      margin-top: 15px;
+    }
+    .home-banner .contact-btn{
+      margin-left: 0;
+      margin: auto;
+      display: table;
+      margin-top: 15px;
+    }
+    .home-banner h3 {
+      font-weight: 500;
+      color: #000;
+      margin-top: 15px;
+     }
+     .industry-clients h2{
+      font-size: 30px;
+     }
+     .career-infomations{
+      width: 81%;
+     }
+     .career-infomations h2{
+      font-size: 20px;
+     }
+     .get-st-btn{
+      font-size: 16px !important;
+      margin-top: 0;
+      padding: 0 !important;
+     }
+     .career-sec{
+      margin-top: 0;
+     }
+     .home-body .news-blogs{
+      margin-top: 78px;
+      margin-bottom: 78px;
+     }
+     .slick-slide {
+      padding: 0;
+     }
+     .home-body .news-blogs .slick-prev, 
+     .home-body .news-blogs .slick-next{
+      position: absolute;
+      left: 0 !important;
+      right: 0 !important;
+      margin: auto;
+      text-align: center;
+      top:inherit !important;
+      bottom: -50px !important;
+     }
+     .home-body .news-blogs .slick-prev{
+      right: 110px !important;
+     }
+    /*  home css ends */
+
+    /* faq page */
+    .faq-page .faq-sections1{
+      margin-bottom: 50px;
+
+    }
+    .faq-page .faq-sections1 h2{
+      font-size: 24px;
+    }
+    /* faq page ends */
+    .top-part .navbar {
+      padding: 14px 4px;
+    }
+
+    .landing-banner h1, .home-banner h1{
+      font-size: 30px;
+    }
+    .news-blogs h2{
+      text-align: center;
+      font-size: 30px;
+    }
+    p.sub-text-news{
+      text-align: center;
+      display: table;
+      margin: auto;
+    }
+    .comon-web-search-sec h1{
+      font-size: 30px;
+    }
+    .faq-part .accordion-button{
+      font-size:20px;
+    }
+    .landing-banner{
+      padding-top:30px;
+    }
+    .comon-section-landing p{
+      font-size: 20px;
+      color: #000;
+    }
+    .comon-section-landing ul li .btn-comon-web{
+      font-size: 16px;
+      height: 45px;
+      line-height: 19px;
+    }
+    .get-start-btn{
+      font-size: 18px !important;
+      height: 58px;
+    }
+    .comon-section-landing ul li{
+      margin: 14px 13px 0 0;
+    }
+    .comon-section-landing h5, .comon-section-landing .click-btn{
+      font-size: 24px;
+    }
+    .sub-text3{
+      display: none;
+    }
+    .form-sec-ban{
+      margin-top: 35px;
+    }
+    .comon-section-landing h2{
+      font-size: 34px;
+    }
+    .expert-cloud-div h1{
+      font-size: 35px;
+    }
+    .faq-sections1{
+      padding: 15px;
+    }
+    .faq-sections1 .accordion-button:not(.collapsed)::after,
+    .faq-sections1 .accordion-button::after{
+      background-image: none !important;
+    }
+    .comon-section-landing{
+      padding-left: 0;
+      padding-top: 25px;
+    }
+    .cosulting-page-d1{
+      margin-bottom:30px;
+    }
+    /* footer */
+    .footer-part .right-footer > div:nth-child(2),
+    .footer-part .right-footer > div:last-child{
+      justify-content: flex-start;
+    }
+    .logo-sec-ft{
+      margin-bottom: 30px;
+    }
+    .contact-comn-web h2{
+      font-size: 26px;
+    }
+    p.copy-ft{
+      font-size: 18px;
+    }
+    .contact-comn-web p{
+      width: 90%;
+      margin: auto;
+      font-size: 16px;
+      font-weight:400;
+    }
+    
+    .contact-comn-web{
+      margin:50px 0;
+    }
+    .footer-part p{
+      font-size: 16px;
+    }
+    .right-footer .comon-footer ul{
+      margin-top: 15px;
+    }
+    .footer-part .right-footer li a{
+      font-size: 18px;
+    }
+    .conatct-btn-sub{
+      width: 80%;
+    }
+    .subcribe-divs{
+      background-size: cover;
+      height: 349px;
+    }
+    /* 15-06 ends */
     .comon-select{
       margin-bottom: 25px;
     }

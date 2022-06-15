@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import {NavLink } from "react-router-dom";
 import Aos from "aos";
 import { FaAngleLeft,FaAngleRight,FaChevronRight,FaRedo } from "react-icons/fa";
@@ -8,6 +8,7 @@ import ConsultLanding from "./ConsultLanding";
 import CollaborateLanding from "./CollaborateLanding";
 import FaqSectionLanding from "./FaqSectionLanding";
 import ConatctComonWeb from "../ConatctComonWeb";
+import LandingBannerForm from "./LandingBannerForm";
 import "aos/dist/aos.css";
 import Header from "../Header";
 import Footer from "../Footer";
@@ -15,6 +16,9 @@ import Footer from "../Footer";
 
 
 function Landing(){
+   useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
   Aos.init({
     offset: 100,
     easing: 'ease',
@@ -38,32 +42,18 @@ function Landing(){
                <div className="col-lg-7" data-aos="fade-down">
                   <h1> <span>We are Nextyn : </span> 
                   the best way to connect with Industry Experts </h1>
-                  <p className="mt-lg-4 col-lg-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  <p className="mt-lg-4 col-lg-8 sub-text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                    sed do eiusmod tempor incididunt ut labore.</p>
                </div>
                <div className="col-lg-5" data-aos="fade-up">
-                   <div className="form-sec-ban">
-                      <h2 className="text-center mb-5" > Get Nextyn Trial version <span className="d-block">
-                      to find experts </span> </h2>
-                      <div className="form-group">
-                         <label> Full Name </label>
-                         <input type="text" className="form-control" placeholder="Dhruv123#"/>
-                      </div>
-                      <div className="form-group">
-                         <label> Email Address </label>
-                         <input type="text" className="form-control" placeholder="Dhruv@Nextyn.com"/>
-                      </div>
-                      <div className="form-group">
-                         <input type="submit" className="btn submit" value="Get Started"/>
-                      </div>
-                   </div>
+                  <LandingBannerForm/>
                </div>
             </div>
          </div>
       </div>
 
       <div className="body-sections">
-          <div className="expert-cloud-div py-5">
+          <div className="expert-cloud-div pt-5 py-lg-5">
             <div className="container">
                 <h1 className="text-center" data-aos="fade-down"> Expert Cloud </h1>
                 <p className="text-center subtext1" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
@@ -81,9 +71,10 @@ function Landing(){
 
              <FaqSectionLanding/>
 
-             <ConatctComonWeb/>
+             
 
             </div>
+            <ConatctComonWeb/>
           </div>
 
       </div>

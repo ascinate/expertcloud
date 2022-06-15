@@ -23,8 +23,8 @@ function PrivacyPolicy(){
             <div className="body-sections py-5">
               <div className="privacy-policy">
                 <div className="container">
-                     <h2 className="text-center"> Privacy Policy </h2>
-                     <div className="inside-page">
+                     <h2> Privacy Policy </h2>
+                     <div className="inside-page mt-4">
                         <div className="comon-privacy">
                            <h5> Heading 1 </h5>
                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In iaculis nunc sed augue lacus viverra vitae. Bibendum enim facilisis gravida neque. Ultrices dui sapien eget mi. Pharetra convallis posuere morbi leo urna molestie. Laoreet sit amet cursus sit amet dictum. Morbi quis commodo odio aenean sed adipiscing. In hac habitasse platea dictumst. Massa sapien faucibus et molestie. Varius vel pharetra vel turpis nunc eget lorem. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Quam adipiscing vitae proin sagittis.

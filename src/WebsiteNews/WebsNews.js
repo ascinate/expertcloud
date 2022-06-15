@@ -26,7 +26,7 @@ function WebsNews(){
              <div className="webnews-div">
                     <div className="container">
                         <h1 className="text-center"> News & Insights </h1>
-                        <p className="text-center"> Lorem ipsum dolor sit amet,
+                        <p className="text-center sub-text2"> Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit,</p>
 
                         
@@ -34,9 +34,11 @@ function WebsNews(){
 
                     
                     </div>
+                    <ConatctComonWebFaq/>
              </div>
+            
           </div>
-          <ConatctComonWebFaq/>
+        
          <Footer/>
         </>
     );
